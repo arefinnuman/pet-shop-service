@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url(login1.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-attachment:fixe
+
+  } 
+  .p1 {
+    font-size: 14px;
+    margin: 5px;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-style: bold;
+    text-align: left;  
+  }
+  h1{
+    margin: auto;
+    width: auto;
+    padding: 15px;
+    font-size: 180%;
+    font-family: 'Ms Madi', cursive;
+    font-style: bold;
+    text-align: center;
+    color: #6B7480;
+  }
+  a{
+    font-family: 'Nunito Sans', sans-serif;
+    display:grid; 
+    justify-content:center;
+    color:whitesmoke;
+    position: absolute;
+    top:90%;
+    left: 50%;	
+    transform: translate(-50%,-50%);
+
+  }
+  a:hover{
+    color: #4dccc6;
+  }
+  .text{
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #000000;
+    margin: auto;
+    height: 40px;
+    border-radius: 25px;
+
+    padding: 5px;
+    border: solid thin #4dccc6;
+    width: 100%;
+  }
+  
+  .button{
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 10px;
+    width: 100px;
+    color: white;
+    background-color: #4dccc6;
+    border-radius: 5px;
+    position: absolute;
+    top:80%;
+    left: 50%;	
+    transform: translate(-50%,-50%);  
+  }
+  button:hover{
+    color: #485461;
+  }
+  
+  .box{
+    background-color: #485461;
+    background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+    margin: auto;
+    height: auto;
+    width: 500px;
+    padding: 50px;
+    overflow: hidden;
+    border-radius: 3px;
+    position: absolute;
+      top: 50%;
+    left: 50%;	
+    transform: translate(-50%,-50%);
+  }
+  
+  
+  
+  
+  small{
+    visibility: hidden;
+    color: red;
+  }
+  
+  
+  
+  
